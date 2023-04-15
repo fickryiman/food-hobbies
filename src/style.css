@@ -4,6 +4,7 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+
 *,
 *::before,
 *::after {
@@ -58,3 +59,56 @@ h6 {
 }
 
 
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1vw;
+}
+
+.logo {
+  background-image: url('../images/logo.png');
+  width: 80px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  align-self: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw;
+  gap: 30px;
+}
+
+.img-food {
+  width: 235px;
+  height: 250px;
+  background-image: url('../images/mutton-briyani.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.food-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes {
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.button {
+  width: fit-content;
+  padding: 3px 30px;
+}
