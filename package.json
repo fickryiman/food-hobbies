@@ -2,9 +2,11 @@
   "name": "food-hobbies",
   "version": "1.0.0",
   "description": "This project is about eating hobbies, the food data here is obtained from the API",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
