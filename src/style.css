@@ -63,6 +63,7 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 1vw;
+  flex-wrap: wrap;
 }
 
 .logo {

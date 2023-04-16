@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', Area.renderArea);
 document.addEventListener('DOMContentLoaded', Categories.renderCategories);
 document.addEventListener('DOMContentLoaded', Ingredients.renderIngredients);
 
+
 const randomMeals = document.querySelector('.random-meals');
 
 randomMeals.addEventListener('click', event => {
