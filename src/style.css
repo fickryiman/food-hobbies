@@ -77,38 +77,62 @@ h6 {
   align-self: center;
 }
 
+.items {
+  padding-bottom: 20vw;
+}
+
 .cards {
   display: flex;
   justify-content: center;
-  margin-top: 5vw;
   gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 5vw;
+}
+
+.card {
+  margin-bottom: 40px;
 }
 
 .img-food {
-  width: 235px;
-  height: 250px;
-  background-image: url('../images/mutton-briyani.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  max-width: 25vw;
+  min-width: 25vw;
 }
 
 .food-info {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 10px;
+}
+
+.food-name {
+  margin-left: 0.75vw;
+}
+
+.love {
+  text-align: right;
+  margin-right: 0.75vw;
+  margin-top: -2vw;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .likes {
   text-align: right;
+  margin-top: -10px;
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .button {
-  width: fit-content;
-  padding: 3px 30px;
+  width: 80%;
+  padding: 5px 0;
+  cursor: pointer;
 }
