@@ -6,7 +6,7 @@ const Foods = {
 
   renderFoods: () => {
     const getResponse = async() => {
-      while (count < 9) {
+      while (count < 15) {
         const response = await fetch(
           'https://www.themealdb.com/api/json/v1/1/random.php',
           {

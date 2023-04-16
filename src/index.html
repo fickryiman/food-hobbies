@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <script src="https://kit.fontawesome.com/1a14122b71.js" crossorigin="anonymous"></script> -->
   <title>Food Hobbies</title>
 </head>
@@ -12,9 +13,35 @@
 
   <nav class="navbar">
     <div class="logo"></div>
-    <div class="menu meals">Meals</div>
-    <div class="menu categories">Categories</div>
-    <div class="menu ingredients">Ingredients</div>
+    <div class="menu random-meals">Random Meals</div>
+    <!-- <div class="menu categories">Categories</div>
+    <div class="menu ingredients">Ingredients</div> -->
+    <div class="dropdown">
+      <button class="dropbtn">Meals Categories 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-categories">
+        <!-- get data from categories.js -->
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Meals Areas
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-area">
+        <!-- get data from area.js -->
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Meals Ingredients 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-ingredients">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
   </nav>
 
   <section class="items">
