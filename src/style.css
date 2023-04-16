@@ -93,9 +93,12 @@ h6 {
 
 .card {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-food {
+  cursor: pointer;
   max-width: 25vw;
   min-width: 25vw;
 }
@@ -109,6 +112,7 @@ h6 {
 }
 
 .food-name {
+  cursor: pointer;
   margin-left: 0.5vw;
   flex-wrap: nowrap;
   max-width: 25vw;
@@ -116,16 +120,17 @@ h6 {
 }
 
 .love {
-  text-align: right;
+  align-self: flex-end;
   margin-right: 0.75vw;
-  margin-top: -1.5vw;
+  margin-top: -1vw;
   padding: 10px;
   cursor: pointer;
 }
 
 .likes {
-  text-align: right;
-  margin-top: -10px;
+  align-self: flex-end;
+  margin-top: -1vw;
+  margin-right: 0.5vw;
 }
 
 .buttons {
@@ -140,4 +145,5 @@ h6 {
   width: 80%;
   padding: 5px 0;
   cursor: pointer;
+  box-shadow: 3px 3px 3px 1px #4c4a4b;
 }

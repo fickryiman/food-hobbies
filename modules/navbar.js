@@ -6,7 +6,7 @@ const Nav = {
   renderNavbar: () => {
     navbar.innerHTML = `
       <div class="logo"></div>
-      <div class="menu meals">Meals</div>
+      <div class="menu meals">Meals (9)</div>
       <div class="menu categories">Categories</div>
       <div class="menu ingredients">Ingredients</div>
     `

@@ -1,8 +1,9 @@
 const cards = document.querySelector('.cards');
-export let meals = [];
+let meals = [];
 let count = 0;
 
 const Foods = {
+
   renderFoods: () => {
     const getResponse = async() => {
       while (count < 9) {
