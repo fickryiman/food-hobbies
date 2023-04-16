@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script src="https://kit.fontawesome.com/1a14122b71.js" crossorigin="anonymous"></script> -->
+  <title>Food Hobbies</title>
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo"></div>
+    <div class="menu random-meals">Random Meals</div>
+    <!-- <div class="menu categories">Categories</div>
+    <div class="menu ingredients">Ingredients</div> -->
+    <div class="dropdown">
+      <button class="dropbtn">Meals Categories 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-categories">
+        <!-- get data from categories.js -->
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Meals Areas
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-area">
+        <!-- get data from area.js -->
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Meals Ingredients 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content dropdown-ingredients">
+        <!-- get data from ingredients.js -->
+      </div>
+    </div>
+    <div class="menu search-meals">Search Meals</div>
+  </nav>
+
+  <section class="items">
+    <div class="cards">
+    </div>
+  </section>
+
+</body>
+</html>
