@@ -75,6 +75,8 @@ h6 {
 
 .menu {
   align-self: center;
+  cursor: pointer;
+  color: #da729f;
 }
 
 .items {
@@ -107,13 +109,16 @@ h6 {
 }
 
 .food-name {
-  margin-left: 0.75vw;
+  margin-left: 0.5vw;
+  flex-wrap: nowrap;
+  max-width: 25vw;
+  min-width: 25vw;
 }
 
 .love {
   text-align: right;
   margin-right: 0.75vw;
-  margin-top: -2vw;
+  margin-top: -1.5vw;
   padding: 10px;
   cursor: pointer;
 }

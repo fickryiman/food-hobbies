@@ -1,5 +1,9 @@
 import './style.css';
+import Nav from '../modules/navbar.js';
+import Foods from '../modules/meals.js';
 
-import Foods from '../modules/items.js';
+const mealsMenu = document.querySelector('.meals');
 
+
+document.addEventListener('DOMContentLoaded', Nav.renderNavbar);
 document.addEventListener('DOMContentLoaded', Foods.renderFoods);

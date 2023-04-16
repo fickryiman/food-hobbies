@@ -1,5 +1,5 @@
 const cards = document.querySelector('.cards');
-let meals = new Array;
+export let meals = [];
 let count = 0;
 
 const Foods = {
@@ -40,8 +40,8 @@ const Foods = {
         </div>
       `).join('');
     });
-
   },
+  
 }
 
 export default Foods;
