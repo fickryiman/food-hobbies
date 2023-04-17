@@ -25,6 +25,10 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #f6f6f6;
   font-family: 'Balsamiq Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img,
@@ -125,19 +129,18 @@ h6 {
 }
 
 .items {
-  padding-bottom: 20vw;
+  padding-bottom: 7vw;
 }
 
 .cards {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
   margin-top: 5vw;
 }
 
 .card {
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -193,3 +196,26 @@ h6 {
   cursor: pointer;
   box-shadow: 3px 3px 3px 1px #4c4a4b;
 }
+
+.footer {
+  border-top: 1px solid #da729f2a;
+  border-bottom: 1px solid #da729f2a;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  background-color: #da729f2a;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: #343fdb;
+}
+
+.love-created {
+  color: rgb(228, 40, 40);
+  font-size: 1.2em;
+}
+

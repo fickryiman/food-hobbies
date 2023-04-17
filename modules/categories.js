@@ -21,7 +21,7 @@ const Categories = {
       const categoriesData = data.meals;
       
       dropdownCategories.innerHTML = categoriesData.map((category) => `
-        <a href="#">${category.strCategory}</a>
+        <a href="#" id="category-${category.strCategory}">${category.strCategory}</a>
       `).join('');
 
     });
