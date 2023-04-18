@@ -9,11 +9,12 @@ document.addEventListener('DOMContentLoaded', Area.renderArea);
 document.addEventListener('DOMContentLoaded', Categories.renderCategories);
 document.addEventListener('DOMContentLoaded', Ingredients.renderIngredients);
 
+document.addEventListener('DOMContentLoaded', Foods.renderFoods);
 
-const randomMeals = document.querySelector('.random-meals');
+// const randomMeals = document.querySelector('.random-meals');
 
-randomMeals.addEventListener('click', event => {
-  Foods.renderFoods();
-  randomMeals.innerHTML = 'Random Meals (15)';
-});
+// randomMeals.addEventListener('click', event => {
+//   Foods.renderFoods();
+//   randomMeals.innerHTML = 'Random Meals (15)';
+// });
 

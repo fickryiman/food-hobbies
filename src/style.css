@@ -135,7 +135,7 @@ h6 {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 5vw;
   flex-wrap: wrap;
   margin-top: 5vw;
 }
